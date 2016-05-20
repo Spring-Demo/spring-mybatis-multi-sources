@@ -12,6 +12,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class Main {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		// 初始化ApplicationContext
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
